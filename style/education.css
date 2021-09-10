@@ -1,5 +1,6 @@
 
 .education{
+    text-align: justify;
     background-color: var(--dark-blue);
     color: white
 }
