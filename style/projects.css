@@ -1,0 +1,25 @@
+.projects-info{
+    background-color: var(--dark-blue);
+    color: var(--branco-suave);   
+}
+.projects-info-item a{
+    color: var(--branco-suave)
+}
+
+.projects-text{
+    color: white
+}
+
+@media screen and (min-width: 768px){
+    .projects-info{
+        background-color: var(--blue-gray);
+        font-size: 1.2rem;
+        
+    }
+    .projects-text{
+        color: var(--branco-suave);
+        margin-bottom: 10px;
+        line-height: 1.2rem;
+    }
+
+}

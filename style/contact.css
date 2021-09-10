@@ -1,0 +1,20 @@
+.profile-info-contact{
+    background-color: var(--dark-blue);
+
+}
+.profile-info-contact a {
+    color: var(--branco-suave);
+}
+
+.profile-info-contact-items{
+    display: flex;
+    flex-direction: column;
+}
+.address-list{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 0 0.5rem 0;
+}
+.address-list li{
+    padding: 5px 0 5px 0;
+}

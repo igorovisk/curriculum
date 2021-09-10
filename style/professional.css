@@ -1,0 +1,22 @@
+.professional-info{
+    background-color: var(--blue-gray);
+    color: var(--branco-suave);
+}
+.professional-info-item{
+    color: black;
+}
+
+@media screen and (min-width: 768px){
+    .professional-info{
+        background-color: var(--branco-suave);
+        color: var(--dark-blue);
+        
+    }
+    .professional-info-item{
+        color: var(--cinza-preto);
+    }
+    .professional-info-text{
+        color: var(--cinza-preto);
+        margin-bottom: 10px;
+    }
+}

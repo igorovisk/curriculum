@@ -1,0 +1,38 @@
+header{   
+   background-color: var(--dark-blue);
+}
+
+.profile-img{
+    margin: 1.5rem;
+    text-align: center;
+}
+
+.profile-img img{
+    max-width: 160px;
+    border-radius: 50%;
+}
+.profile-info-basic{
+    margin: auto;
+    
+    color: white;
+    text-align: center;
+    
+    
+}
+.profile-info-name{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px;
+      
+    
+}
+.profile-info-job{
+    text-align: center;
+    
+    margin: auto;
+    font-size: 1rem;
+       
+}
+
