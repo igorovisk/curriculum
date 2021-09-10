@@ -8,7 +8,7 @@
 
 @media screen and (min-width:768px){
     .skills-info{               
-        background-color: var(--blue-gray);
+        background-color: var(--midnight-blue);
         color: var(--branco-suave);
     }
 }
