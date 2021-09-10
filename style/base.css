@@ -90,7 +90,7 @@ a{
    
    .container-all{       
        display: flex;
-       flex-direction: row;
+       flex-direction: row-reverse;
    }
    .container{
        padding: 40px;
