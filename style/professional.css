@@ -3,7 +3,9 @@
     color: var(--dark-blue);
 }
 .professional-info-item{
-    color:var(--cinza-preto)
+    color:var(--cinza-preto);
+    text-align: justify;
+    
 }
 .professional-info-text{
     color: var(--dark-blue);
