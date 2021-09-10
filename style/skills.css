@@ -3,12 +3,5 @@
     color: var(--dark-blue);
 }
 .skills-item{
-    color: black;
-}
-
-@media screen and (min-width:768px){
-    .skills-info{               
-        background-color: var(--midnight-blue);
-        color: var(--branco-suave);
-    }
+    color: rgb(61, 61, 61);
 }
