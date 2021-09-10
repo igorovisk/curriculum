@@ -23,18 +23,19 @@ body{
 
 /* LINKS */
 a{
-    text-decoration: none;
- 
+    text-decoration: none; 
     cursor: pointer;
+}
+.subhead a:hover,  .text a:hover{
+    color: var(--cinza-preto);
+    transition: all 0.5s;
 }
 .text a{
     text-decoration: underline;
     color: var(--branco-suave);
     font-weight: 600;
 }
-.text a::after{
-    text-decoration: none;
-}
+
 .subhead a{
     color: var(--branco-suave);
     text-decoration: none;
@@ -64,6 +65,7 @@ a{
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1.2rem;
+    
 }
 .subhead{
     font-size: 1.020rem;
@@ -90,7 +92,7 @@ a{
    
    .container-all{       
        display: flex;
-       flex-direction: row;
+       flex-direction: row-reverse;
    }
    .container{
        padding: 40px;

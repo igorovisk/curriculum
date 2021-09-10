@@ -5,6 +5,10 @@
 .profile-info-contact a {
     color: var(--branco-suave);
 }
+.profile-info-contact a:hover{
+    color: black;
+    transition: all 0.5s;
+}
 
 .profile-info-contact-items{
     display: flex;
