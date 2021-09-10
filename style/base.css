@@ -23,6 +23,10 @@ a{
     text-decoration: none; 
     cursor: pointer;
 }
+a::before, a::after{
+    text-decoration: none;
+}
+
 .subhead a:hover, .text a:hover{
     color: var(--cinza-preto);
     transition: all 0.5s;
@@ -44,13 +48,14 @@ a{
 .container-all{
     display: flex;
     flex-direction: column; 
-    background-color: var(--dark-blue)
-    
+    background-color: var(--dark-blue);
+    box-shadow: 6px 6px 6px gray;
+        
 }
 
 .container{    
     text-align: left;
-    padding: 6% 6% 6% 6%;
+    padding: 8%;
     
 }
 
@@ -60,7 +65,7 @@ a{
     padding: 10px 0 20px 0;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     
 }
 .subhead{
@@ -77,11 +82,12 @@ a{
 
 /* TEXTOS */
 .text{
-    
+
     font-size: 0.9rem;
     padding: 10px 0 15px 0;
     color: var(--branco-suave);
     text-align: justify;
+    line-height: 1.2rem;
 }
 
 /* MEDIA QUERIES */
@@ -95,7 +101,7 @@ a{
        padding: 40px;
    }
    .transition-first-wrapper{
-       width: 800px;
+       width: 500px;
    }
    .transition-second-wrapper{
        background-color: var(--blue-gray);

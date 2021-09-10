@@ -1,0 +1,14 @@
+.skills-info{
+    background-color: var(--branco-suave);
+    color: var(--dark-blue);
+}
+.skills-item{
+    color: black;
+}
+
+@media screen and (min-width:768px){
+    .skills-info{               
+        background-color: var(--blue-gray);
+        color: var(--branco-suave);
+    }
+}

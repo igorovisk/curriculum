@@ -2,8 +2,21 @@
     background-color: var(--dark-blue);
     color: var(--branco-suave);   
 }
+
+.project-info-item{
+    color: var(--baby-blue);
+}
+
 .projects-info-item a{
     color: var(--branco-suave)
+}
+
+.project-info-item a::before{
+    text-decoration: none;
+}
+
+.project-info-item a::after{
+    text-decoration: none;
 }
 
 .projects-text{
