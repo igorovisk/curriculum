@@ -8,15 +8,18 @@
         <link rel="stylesheet" href="style/reset.css">
         <link rel="stylesheet" href="style/base.css">
         <link rel="stylesheet" href="style/header.css">
+        <link rel="stylesheet" href="style/menu.css">
         <link rel="stylesheet" href="style/contact.css">
         <link rel="stylesheet" href="style/education.css">
         <link rel="stylesheet" href="style/languages.css">
         <link rel="stylesheet" href="style/professional.css">
         <link rel="stylesheet" href="style/projects.css">
         <link rel="stylesheet" href="style/skills.css">
-        <link rel="stylesheet" href="style/footer.css">
+        <link rel="stylesheet" href="style/scroll.css">
+        
+      
 
-        <link rel="shortcut icon" href="/assets/favicon.png" type="image/png">
+        <link rel="shortcut icon" href="/assets/img/favicon.png" type="image/png">
 
         <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
         
@@ -31,7 +34,7 @@
                     <header class="container"> <!--CRIO HEADER OU ASIDE OU UMA DIV?-->
                         
                         <figure class="profile-img">
-                            <img src="assets/Screenshot from 2021-05-19 12-55-41.png" alt="foto do perfil pessoal">                   
+                            <img src="assets/img/Screenshot from 2021-05-19 12-55-41.png" alt="foto do perfil pessoal">                   
                         </figure>
 
                         <section class="profile-info-basic">
@@ -39,22 +42,94 @@
                             <h3 class="profile-info-job">Estudante de Análise e Desenvolvimento de Sistemas</h3>
                         </section>
 
+                        <!--MENU-->
+                        <nav class="nav-menu">
+
+                            <div class="menu-bar">
+                                <a href="#" class="nav-logo">Igor Borgio</a>
+
+                                <div class="nav-toggle" id="nav-toggle">
+                                    <i class="fas fa-th-large"></i>
+                                </div>   
+
+                            </div>
+                          
+
+                            <div class="nav-menu" id="nav-menu">
+
+                                <ul class="nav-list">
+
+                                    <li class="nav-item">
+                                        <a href="#home" class="nav-link">
+                                            <i class="fas fa-home"></i> Home
+                                        </a>
+                                    </li>  
+
+                                    <li class="nav-item">
+                                        <a href="#profile-info-contact" class="nav-link">
+                                            <i class="fas fa-id-card"></i> Contato
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a href="#education" class="nav-link">
+                                            <i class="fas fa-university"></i> Educação
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a href="#languages" class="nav-link">
+                                            <i class="fas fa-language"></i> Idiomas
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a href="#professional-info" class="nav-link">
+                                            <i class="far fa-building"></i> Experiência Profissional
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a href="#projects" class="nav-link">
+                                            <i class="fas fa-tools"></i> Projetos
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a href="#skills" class="nav-link">
+                                            <i class="fas fa-book"></i> Conhecimentos
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            
+                        </nav>
+                        
                     </header>
 
-                    <section class="profile-info-contact container">
+                    <section class="profile-info-contact container" id="profile-info-contact">
                         <address class="profile-info-contact-items">
 
                             <h2 class="contact-title title"><i class="fas fa-id-card"></i>&nbsp;contato</h2>
                             <ul class="address-list"><!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx colocar icones -->
-                                <li><a href="tel:+5545999734751"><i class="fas fa-phone"></i>&nbsp;(45) 99973-4751</a></li>
-                                <li><a href="mailto:igorovisk@gmail.com"><i class="fas fa-envelope"></i>&nbsp;igorovisk@gmail.com</a></li>
-                                <li><a target="_blank" href="https://www.linkedin.com/in/igor-augusto-corso-borgio-b5b45695"><i class="fab fa-linkedin"></i>&nbsp;LinkedIn</a></li>
-                                <li> <a target="_blank" href="https://github.com/igorovisk"><i class="fab fa-github"></i>&nbsp;GitHub</a> </li>
-                                </ul>
+                                <li>
+                                    <a href="tel:+5545999734751"><i class="fas fa-phone"></i>&nbsp;(45) 99973-4751</a>
+                                </li>
+                                <li>
+                                    <a href="mailto:igorovisk@gmail.com"><i class="fas fa-envelope"></i>&nbsp;igorovisk@gmail.com</a>
+                                </li>
+                                <li>
+                                    <a target="_blank" href="https://www.linkedin.com/in/igor-augusto-corso-borgio-b5b45695"><i class="fab fa-linkedin"></i>&nbsp;LinkedIn</a>
+                                </li>
+                                <li>
+                                    <a target="_blank" href="https://github.com/igorovisk"><i class="fab fa-github"></i>&nbsp;GitHub</a> 
+                                </li>
+                            </ul>
                         </address>
                     </section>            
 
-                    <section class="education container">
+                    <section class="education container" id="education">
                         <h2 class="education-title title"><i class="fas fa-user-graduate"></i>&nbsp;educação </h2>
                     
                         <h3 class="education-item subhead"> Faculdade Educacional de Medianeira - União Dinâmica das Cataratas (UDC) - Medianeira/PR</h3>
@@ -67,7 +142,7 @@
                                                     
                     </section>
 
-                    <section class="languages container">
+                    <section class="languages container" id="languages">
                         
                         <h2 class="languages-title title"><i class="fas fa-globe-americas"></i>&nbsp;Idiomas</h2>
                         
@@ -87,9 +162,9 @@
     
                 <div class="transition-second-wrapper">
 
-                    <section class="professional-info container">
+                    <section class="professional-info container" id="professional-info">
                         
-                        <h2 class="professional-info-title title"><i class="fas fa-user-tie"></i>&nbsp;carreira profissional</h2>
+                        <h2 class="professional-info-title title"><i class="fas fa-user-tie"></i>&nbsp;experiência profissional</h2>
 
                         <h3 class="professional-info-item subhead">TJPR - Vara Criminal e Anexos - Serviços Jurídicos Voluntários</h3>
                         <h4 class="time-lapse-info">Ago/2014 - Mai/2015</h4>
@@ -109,7 +184,7 @@
 
                     </section>
 
-                    <section class="projects-info container">
+                    <section class="projects-info container" id="projects">
 
                         <h2 class="projects-info-title title"><i class="fas fa-th-large"></i>&nbsp;Projetos</h2>
 
@@ -150,28 +225,48 @@
 
                     </section>
 
-                    <section class="skills-info container">
+                    <section class="skills-info container" id="skills">
 
                         <h2 class="skills-title title"><i class="fas fa-book-open"></i>&nbsp;Conhecimentos</h2>
 
-                        <h3 class="skills-item subhead"><i class="fab fa-html5"></i>&nbsp;HTML</h3>
-                        <h3 class="skills-item subhead"><i class="fab fa-css3-alt"></i>&nbsp;CSS</h3>
-                        <h3 class="skills-item subhead"><i class="fab fa-js"></i>&nbsp;JAVASCRIPT</h3>
-                        <h3 class="skills-item subhead"><i class="fas fa-robot"></i>&nbsp;SEO BÁSICO</h3>
-                        <h3 class="skills-item subhead"><i class="fab fa-git-square"></i>&nbsp;GIT</h3>
-                        <h3 class="skills-item subhead"><i class="fab fa-github"></i>&nbsp;GITHUB</h3>
+                        <h3 class="skills-item subhead">
+                            <i class="fab fa-html5"></i>&nbsp;HTML
+                        </h3>
+                        <h3 class="skills-item subhead">
+                            <i class="fab fa-css3-alt"></i>&nbsp;CSS
+                        </h3>
+                        <h3 class="skills-item subhead">
+                            <i class="fab fa-js"></i>&nbsp;JAVASCRIPT
+                        </h3>
+                        <h3 class="skills-item subhead">
+                            <i class="fas fa-robot"></i>&nbsp;SEO BÁSICO
+                        </h3>
+                        <h3 class="skills-item subhead">
+                            <i class="fab fa-git-square"></i>&nbsp;GIT
+                        </h3>
+                        <h3 class="skills-item subhead">
+                            <i class="fab fa-github"></i>&nbsp;GITHUB
+                        </h3>
 
                     </section>  
-                  
+                    
                 </div>       
             </main>
+            
+           <!--SCROLL TOP-->
+            <a href="#" class="scrolltop" id="scroll-top">
+                <i class="fas fa-arrow-circle-up scrolltop-icon"></i>
+            </a>
+            
+
+          
            
         </div>
       
         
         <!--SCRIPTS-->
         <script src="https://kit.fontawesome.com/fc18366782.js" crossorigin="anonymous"></script>
-
+        <script type="module" src="assets/js/main.js"></script>
 
 
     </body>

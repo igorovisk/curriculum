@@ -12,10 +12,12 @@
 *{  
     padding: 0%;
     margin: 0;    
+    box-sizing: border-box;
 }
 
 body{
     font-family: 'Roboto', sans-serif;   
+    overflow-x: hidden;
 }
 
 /* LINKS */
@@ -44,7 +46,7 @@ a::before, a::after{
 }
 
 
-/* CONTAINER GERAL*/
+/* CONTAINERS*/
 .container-all{
     display: flex;
     flex-direction: column; 
@@ -55,12 +57,12 @@ a::before, a::after{
 
 .container{    
     text-align: left;
-    padding: 8%;
+    padding: 10%;
     
 }
 
 
-/* TITULOS E SUBTITULOS*/ 
+/* TITLES AND SUBHEADERS*/ 
 .title{
     padding: 10px 0 20px 0;
     text-transform: uppercase;
@@ -80,7 +82,7 @@ a::before, a::after{
 }
 
 
-/* TEXTOS */
+/* TEXTS */
 .text{
 
     font-size: 0.9rem;

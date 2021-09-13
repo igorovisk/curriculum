@@ -1,0 +1,19 @@
+{
+  "name": "projeto1-apresentacao-pessoal",
+  "version": "1.0.0",
+  "description": "Projeto elaborado para a Wise Systems, para fins de participaçao do programa de Trainee da empresa.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igorovisk/curriculum.git"
+  },
+  "author": "Igor Augusto Corso Borgio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/igorovisk/curriculum/issues"
+  },
+  "homepage": "https://github.com/igorovisk/curriculum#readme"
+}

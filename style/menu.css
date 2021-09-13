@@ -1,0 +1,69 @@
+/* MENU BOX */
+
+.menu-bar{
+    position: fixed;
+    width: 100vw;
+    bottom: 0rem;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255,255,255,0.8);
+    overflow-x: hidden;
+    padding: 2% 10% 2% 10%;
+    color: black;
+}
+
+.nav-menu{
+    width: 100%;
+    background-color: rgba(255,255,255,0.8);
+    bottom: -20rem;
+    position: fixed;
+    left: 0rem;
+    
+    padding: 1rem 1.5rem 1rem 1rem;
+    transition: all 0.5s;
+
+}
+.nav-logo{
+    color: black;
+}
+.nav-list{      
+    display: grid; 
+    gap: 1.0rem;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+.nav-link{
+    
+    color: black;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: all 0.5s
+}
+
+.nav-link i{
+    margin-bottom: 5px;
+}
+
+.nav-item a:hover{
+    color: var(--dark-blue);
+    
+}
+
+.nav-item{
+    padding: 5px;
+}
+.show-menu{
+    bottom: 2rem;
+    transition: all 0.5s;
+}
+
+@media screen and (min-width: 768px) {
+    .nav-menu{
+        visibility: hidden;
+    }
+    
+}

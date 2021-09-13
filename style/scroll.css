@@ -1,0 +1,22 @@
+.scrolltop{
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    position: fixed;
+    right: 0.4rem;
+    bottom: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .3rem;  
+    border-radius: .5rem;
+    transition: 0.8s;
+    visibility: hidden;   
+}
+.scrolltop-icon{
+    font-size: 1.0rem;
+}
+.show-scroll{
+    visibility: visible;
+    bottom: 4rem;
+}
+
