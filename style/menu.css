@@ -9,22 +9,23 @@
     justify-content: space-between;
     background-color: rgba(255,255,255,0.8);
     overflow-x: hidden;
-    padding: 2% 10% 2% 10%;
+    padding: 4% 10% 4% 10%;
     color: black;
+    
 }
 
 .nav-menu{
-    width: 100%;
+    width: 100vw;
     background-color: rgba(255,255,255,0.8);
     bottom: -20rem;
     position: fixed;
-    left: 0rem;
+    left: 0rem;    
+    padding: 2.0rem 1.5rem 2rem 1.5rem;
     
-    padding: 1rem 1.5rem 1rem 1rem;
     transition: all 0.5s;
 
 }
-.nav-logo{
+.nav-logo{   
     color: black;
 }
 .nav-list{      
@@ -57,7 +58,7 @@
     padding: 5px;
 }
 .show-menu{
-    bottom: 2rem;
+    bottom: 2.8rem;
     transition: all 0.5s;
 }
 
