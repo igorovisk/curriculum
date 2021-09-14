@@ -1,2 +1,3 @@
 import scrollTop from "./scrolltop.js";
-import toggleMenu from "./toggleMenu.js";
+import ToggleMenu from "./toggleMenu.js";
+

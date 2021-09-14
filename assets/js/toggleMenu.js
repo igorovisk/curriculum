@@ -1,15 +1,18 @@
-const toggleMenu = (toggleId, navId) =>{
-    const toggle = document.getElementById(toggleId),
-    nav = document.getElementById('nav-menu')
-    
    
-    if(toggle && nav){
-        toggle.addEventListener('click', ()=>{
-            
-            nav.classList.toggle('show-menu')
-        })
+const ToggleMenu = () => {
+    const toggle = document.getElementById('nav-toggle')
+    let navMenu = document.getElementById('nav-menu')    
+    const linkList = document.querySelectorAll('.nav-link')
+
+    if(toggle && navMenu){
+        linkList.forEach(link => {
+            addEventListener('click', ()=>{ 
+                navMenu.classList.toggle('show-menu')                     
+            })       
+        })   
     }
 }
-toggleMenu('nav-toggle','nav-menu')
 
-export default toggleMenu
+ToggleMenu()
+
+export default ToggleMenu

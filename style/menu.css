@@ -7,7 +7,7 @@
     left: 0;
     display: flex;
     justify-content: space-between;
-    background-color: rgba(255,255,255,0.8);
+    background-color: var(--branco-suave);
     overflow-x: hidden;
     padding: 4% 10% 4% 10%;
     color: black;
@@ -16,7 +16,7 @@
 
 .nav-menu{
     width: 100vw;
-    background-color: rgba(255,255,255,0.8);
+    background-color: var(--branco-suave);
     bottom: -20rem;
     position: fixed;
     left: 0rem;    
