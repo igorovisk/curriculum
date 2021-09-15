@@ -1,14 +1,11 @@
 .projects-info{
-    background-color: var(--dark-blue);
-    color: var(--branco-suave);   
+    background-color: var(--branco-suave);
+    color: var(--dark-blue);    
 }
 
-.project-info-item{
-    color: var(--baby-blue);
-}
 
 .projects-info-item a{
-    color: var(--branco-suave)
+    color: black
     
 }
 
@@ -21,17 +18,17 @@
 }
 
 .projects-text{
-    color: white
+    color: rgb(61, 61, 61);
 }
 
 @media screen and (min-width: 768px){
     .projects-info{
-        background-color: var(--blue-gray);
+        background-color: var(--branco-suave);
         font-size: 1.2rem;
         
     }
     .projects-text{
-        color: var(--branco-suave);
+        color:var(--cinza-preto);
         margin-bottom: 10px;
         line-height: 1.2rem;
     }

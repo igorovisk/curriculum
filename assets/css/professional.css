@@ -2,6 +2,7 @@
    
     background-color: var(--branco-suave);
     color: var(--dark-blue);
+    padding-bottom: 5rem;
 }
 .professional-info-item{
     color:var(--cinza-preto);
@@ -16,7 +17,7 @@
     .professional-info{
         background-color: var(--branco-suave);
         color: var(--dark-blue);
-        
+       
     }
     .professional-info-item{
         color: var(--cinza-preto);

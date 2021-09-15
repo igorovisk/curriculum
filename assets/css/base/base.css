@@ -5,7 +5,8 @@
     --blue-gray: #5885AF;
     --dark-blue:#274472;
     --baby-blue: #C3E0E5;
-    --cinza-preto: rgb(61, 61, 61);;
+    --cinza-preto: rgb(61, 61, 61);
+    --roxo-azul: rgb(39, 39, 117);
 
 }
 
@@ -57,7 +58,7 @@ a::before, a::after{
 
 .container{    
     text-align: left;
-    padding: 10%;
+    padding: 3rem 2.5rem 3rem 2.5rem ;
     
 }
 

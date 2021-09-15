@@ -1,11 +1,9 @@
 .skills-info{
-    background-color: var(--branco-suave);
-    color: var(--dark-blue);
+    background-color: var(--roxo-azul);
+    color: var(--branco-suave)
    
 }
-.skills-list{
-    padding-bottom: 2rem;
-}
+
 .skills-item{
-    color: rgb(61, 61, 61);
+    color: var(--branco-suave)
 }
