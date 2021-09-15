@@ -9,25 +9,39 @@
     align-items: center;
     padding: .3rem;  
     border-radius: .5rem;
-    transition: 0.8s;
+    transition: all 1.0s;
     visibility: hidden;   
 }
+
 .scrolltop-icon{
-    font-size: 1.0rem;
-    transition: all 0.5s;
+    font-size: 1.0rem;    
 }
+
 .scrolltop-icon:hover{
     color: var(--blue-gray);
    
 }
+
 .show-scroll{
     visibility: visible;
     bottom: 4rem;
 }
 
 @media screen and (min-width: 768px){
+
+    .scrolltop{      
+        position: fixed;
+        left: 5rem;   
+        bottom: 2rem;
+    }
+
     .scrolltop-icon{
-        font-size: 1.3rem;
+        font-size: 1rem;
+    }
+
+    .show-scroll{
+        visibility: visible;
+        bottom: 0.3rem;
     }
 }
 
