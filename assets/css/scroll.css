@@ -14,9 +14,20 @@
 }
 .scrolltop-icon{
     font-size: 1.0rem;
+    transition: all 0.5s;
+}
+.scrolltop-icon:hover{
+    color: var(--blue-gray);
+   
 }
 .show-scroll{
     visibility: visible;
     bottom: 4rem;
+}
+
+@media screen and (min-width: 768px){
+    .scrolltop-icon{
+        font-size: 1.3rem;
+    }
 }
 

@@ -1,3 +1,5 @@
+"use strict"
+
 function scrollTop(event){
     const scrollTop = document.getElementById('scroll-top')
     if(this.scrollY >= 200){

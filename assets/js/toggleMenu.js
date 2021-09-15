@@ -1,3 +1,4 @@
+"use strict"
    
 const ToggleMenu = () => {
     const toggle = document.getElementById('nav-toggle')
