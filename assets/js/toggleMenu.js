@@ -30,13 +30,15 @@ const ToggleMenu = () => {
     if(!menuDesativado){
         document.addEventListener('click', function(event) {
 
-            var isClickInside = toggle.contains(event.target);                    
+            var isClickInside = toggle.contains(event.target); 
+
             if (!isClickInside && !menuDesativado) {
                 navMenu.classList.remove('show-menu')                
                 menuDesativado = true    
             } 
         })
-    }       
+    }
+           
 } 
     
 

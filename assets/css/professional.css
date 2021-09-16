@@ -1,29 +1,32 @@
-.professional-info{
-   
+.professional-info{   
     background-color: var(--branco-suave);
     color: var(--dark-blue);
     padding-bottom: 5rem;
 }
+
 .professional-info-item{
     color:var(--cinza-preto);
-    text-align: justify;
-    
+    text-align: justify;    
 }
+
 .professional-info-text{
     color: var(--dark-blue);
 }
 
 @media screen and (min-width: 768px){
+
     .professional-info{
         background-color: var(--branco-suave);
-        color: var(--dark-blue);
-       
+        color: var(--dark-blue);       
     }
+
     .professional-info-item{
         color: var(--cinza-preto);
     }
+
     .professional-info-text{
         color: var(--cinza-preto);
         margin-bottom: 10px;
     }
+    
 }

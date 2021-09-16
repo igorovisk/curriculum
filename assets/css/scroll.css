@@ -18,14 +18,14 @@
 }
 
 .scrolltop-icon:hover{
-    color: var(--blue-gray);
-   
+    color: var(--blue-gray);   
 }
 
 .show-scroll{
     visibility: visible;
     bottom: 4rem;
 }
+
 
 @media screen and (min-width: 768px){
 
@@ -43,5 +43,6 @@
         visibility: visible;
         bottom: 0.3rem;
     }
+    
 }
 

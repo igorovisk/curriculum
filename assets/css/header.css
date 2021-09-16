@@ -7,31 +7,28 @@ header{
     text-align: center;
 }
 
-.profile-img img{
-    
+.profile-img img{    
     max-width: 160px;
     border-radius: 50%;
+    border: 2px solid var(--branco-suave);
 }
+
 .profile-info-basic{
-    margin: auto;
-    
+    margin: auto;    
     color: white;
     text-align: center;
-    
-    
 }
+
 .profile-info-name{
     font-size: 1.5rem;
     font-weight: bold;
     text-transform: uppercase;
     color: white;
-    padding: 10px;
-      
-    
+    padding: 10px;   
 }
+
 .profile-info-job{
-    text-align: center;
-    
+    text-align: center;    
     margin: auto;
     font-size: 1rem;
        

@@ -1,4 +1,3 @@
-
 .education{
     text-align: justify;
     background-color: var(--dark-blue);
@@ -6,6 +5,7 @@
 }
 
 @media screen and (min-width: 768px){
+
     .education{
         background-color: var(--dark-blue);
     }

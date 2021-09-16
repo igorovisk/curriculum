@@ -5,8 +5,7 @@
 }
 
 .profile-info-contact a {
-    color: var(--branco-suave);
-    
+    color: var(--branco-suave);    
 }
 
 .profile-info-contact a:hover{
