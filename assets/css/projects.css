@@ -8,6 +8,10 @@
     color: black
     
 }
+.projects-info-item a:hover{
+    color: var(--blue-gray);
+    
+}
 
 .project-info-item a::before{
     text-decoration: none;
