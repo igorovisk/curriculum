@@ -1,6 +1,5 @@
 # Responsive Curriculum Vitae Website
 
-**Project developed for Wise Systems 2021.2 trainee program.**
 
 - Mobile First Concept
 
